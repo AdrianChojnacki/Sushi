@@ -1,0 +1,217 @@
+body {
+    background-color: #333;
+}
+
+#left-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2.5%;
+    height: 100%;
+    background: #2a2a2a;
+}
+
+#left-panel .social-media {
+    display: block;
+    width: 100%;
+    height: 5.44%;
+    transition: all 500ms ease;
+}
+
+#left-panel .social-media:hover {
+    background-color: #fe4e50;
+}
+
+#facebook {
+    background: url('../img/facebook.svg') center center no-repeat;
+}
+
+#twitter {
+    background: url('../img/twitter.svg') center center no-repeat;
+}
+
+#pinterest {
+    background: url('../img/pinterest.svg') center center no-repeat;
+}
+
+#left-panel .kreska {
+    width: 87.5%;
+    height: 1px;
+    background: #4f4f4f;
+    margin: 0 auto;
+}
+
+#main-panel {
+    position: absolute;
+    top: 192px;
+    left: 2.5%;
+    width: 27.5%;
+    background: #333;
+}
+
+#main-panel #mp1 {
+    width: 100%;
+    height: 120px;
+}
+
+#main-panel #mp1 .h1 {
+    font-family: dosis light;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    margin-left: 51px;
+    padding-top: 20px;
+    color: #fe4e50;
+}
+
+#main-panel #mp1 .h2 {
+    font-family: dosis light;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    margin-left: 51px;
+    color: white;
+}
+
+#main-panel #mp2 {
+    width: 20%;
+    left: 0;
+    position: absolute;
+    background: #333;
+    min-height: 500px;
+}
+
+#main-panel #mp2 .kreska1 {
+    height: 200px;
+    width: 1px;
+    background: #484848;
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+    margin-top: 4px;
+    float: right;
+}
+
+#main-panel #mp2 .kreska2 {
+    height: 200px;
+    width: 1px;
+    background: #484848;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 4px;
+    float: right;
+}
+
+#main-panel #mp3 {
+    width: 80%;
+    left: 20%;
+    position: absolute;
+    background: #333;
+}
+
+#main-panel #mp3 .p1 {
+    font-family: dosis light;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#main-panel #mp3 .p2 {
+    font-family: dosis light;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color: #fe4e50;
+}
+
+#menu-panel {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 27.5%;
+    height: 192px;
+    background: #333;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+    width: 40%;
+}
+
+#menu-panel ul {
+    list-style-type: none;
+    margin-top: 36px;
+    padding: 0;
+    text-align: center;
+}
+
+#menu-panel li {
+    display: inline-block;
+}
+
+#menu-panel li a {
+    font-family: dosis light;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#menu-panel li a:hover {
+    border-bottom: 1px solid #ff5253;
+    color: #ff5253;
+}
+
+#image-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background: #333;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+    background: #fe4e50;
+}
