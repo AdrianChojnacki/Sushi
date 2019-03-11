@@ -2,6 +2,8 @@ body {
     background-color: #333;
 }
 
+/*------------------------------------------------------------------------------------------ LEFT PANEL */
+
 #left-panel {
     position: fixed;
     top: 0;
@@ -41,6 +43,53 @@ body {
     margin: 0 auto;
 }
 
+/*------------------------------------------------------------------------------------------ MENU PANEL */
+
+#menu-panel {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 27.5%;
+    height: 192px;
+    background: #333;
+    z-index: 1;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+    width: 40%;
+}
+
+#menu-panel ul {
+    list-style-type: none;
+    margin-top: 36px;
+    padding: 0;
+    text-align: center;
+}
+
+#menu-panel li {
+    display: inline-block;
+}
+
+#menu-panel li a {
+    font-family: dosis light, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#menu-panel li a:hover {
+    border-bottom: 1px solid #ff5253;
+    color: #ff5253;
+}
+
+/*------------------------------------------------------------------------------------------ MAIN PANEL */
+
 #main-panel {
     position: absolute;
     top: 192px;
@@ -55,7 +104,7 @@ body {
 }
 
 #main-panel #mp1 .h1 {
-    font-family: dosis light;
+    font-family: dosis light, sans-serif;
     font-size: 25px;
     font-weight: 900;
     margin: 0;
@@ -66,7 +115,7 @@ body {
 }
 
 #main-panel #mp1 .h2 {
-    font-family: dosis light;
+    font-family: dosis light, sans-serif;
     font-size: 30px;
     font-weight: 900;
     margin: 0;
@@ -113,7 +162,7 @@ body {
 }
 
 #main-panel #mp3 .p1 {
-    font-family: dosis light;
+    font-family: dosis light, sans-serif;
     font-size: 16px;
     font-weight: 900;
     margin: 0;
@@ -124,7 +173,7 @@ body {
 }
 
 #main-panel #mp3 .p2 {
-    font-family: dosis light;
+    font-family: dosis light, sans-serif;
     font-size: 25px;
     font-weight: 900;
     margin: 0;
@@ -134,47 +183,7 @@ body {
     color: #fe4e50;
 }
 
-#menu-panel {
-    position: fixed;
-    top: 0;
-    left: 2.5%;
-    width: 27.5%;
-    height: 192px;
-    background: #333;
-}
-
-#logo {
-    display: block;
-    margin: 0 auto;
-    margin-top: 40px;
-    height: auto;
-    width: 40%;
-}
-
-#menu-panel ul {
-    list-style-type: none;
-    margin-top: 36px;
-    padding: 0;
-    text-align: center;
-}
-
-#menu-panel li {
-    display: inline-block;
-}
-
-#menu-panel li a {
-    font-family: dosis light;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
-}
-
-#menu-panel li a:hover {
-    border-bottom: 1px solid #ff5253;
-    color: #ff5253;
-}
+/*------------------------------------------------------------------------------------------ IMAGE PANEL */
 
 #image-panel {
     position: fixed;
@@ -186,6 +195,8 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
+/*------------------------------------------------------------------------------------------ SWIPER */
 
 .swiper-container {
     width: 100%;
