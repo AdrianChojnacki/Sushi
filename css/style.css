@@ -6,7 +6,7 @@ body {
     background: #333;
 }
 
-/*------------------------------------------------------------------------------------------ LEFT PANEL */
+/*-------------------------------------------------------------------------------------------------------- LEFT PANEL */
 
 #left-panel {
     position: fixed;
@@ -17,37 +17,37 @@ body {
     background: #2a2a2a;
 }
 
-#left-panel .social-media {
+.social-media {
     display: block;
     width: 100%;
     height: 5.44%;
     transition: all 500ms ease;
 }
 
-#left-panel .social-media:hover {
+.social-media:hover {
     background-color: #fe4e50;
 }
 
-#facebook {
+.facebook {
     background: url('../img/facebook.svg') center center no-repeat;
 }
 
-#twitter {
+.twitter {
     background: url('../img/twitter.svg') center center no-repeat;
 }
 
-#pinterest {
+.pinterest {
     background: url('../img/pinterest.svg') center center no-repeat;
 }
 
-#left-panel .kreska {
+.line {
     width: 87.5%;
     height: 1px;
     margin: 0 auto;
     background: #4f4f4f;
 }
 
-/*------------------------------------------------------------------------------------------ MENU PANEL */
+/*-------------------------------------------------------------------------------------------------------- MENU PANEL */
 
 #menu-panel {
     position: fixed;
@@ -56,7 +56,7 @@ body {
     width: 27.5%;
     height: 192px;
     background: #2f2f2f;
-    /* background: #333; ------------- Powrót do designu Krzycha + bez tego "border-bottom" poniżej. */
+    /* background: #333;-------------------- Powrót do designu Krzycha + bez tego "border-bottom" linijkę poniżej. */
     border-bottom: 1px solid #4f4f4f;
     z-index: 1;
 }
@@ -65,8 +65,7 @@ body {
     display: block;
     width: 40%;
     height: auto;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto 0;
 }
 
 #menu-panel ul {
@@ -80,8 +79,8 @@ body {
     display: inline-block;
 }
 
-#menu-panel li a {
-    display: inline-block; /* -------------------- Problem ze "skaczącymi" linkami przy wrapie. */
+#menu-panel a { /*-------------------- Zastanawiałem się czy dać selektor '#menu-panel li a' czy bez 'li'. Oba zdają się działać identycznie, więc uznałem, że postawię na oszczędność miejsca. */
+    display: inline-block; /*-------------------- Problem ze "skaczącymi" linkami przy wrapie. */
     padding: 4px 8px;
     color: white;
     font-size: 18px;
@@ -90,12 +89,12 @@ body {
     text-decoration: none;
 }
 
-#menu-panel li a:hover {
+#menu-panel a:hover { /*-------------------- Zastanawiałem się czy dać selektor '#menu-panel li a:hover' czy bez 'li'. Oba zdają się działać identycznie, więc uznałem, że postawię na oszczędność miejsca. */
     color: #ff5253;
     border-bottom: 1px solid #ff5253;
 }
 
-/*------------------------------------------------------------------------------------------ MAIN PANEL */
+/*-------------------------------------------------------------------------------------------------------- MAIN PANEL */
 
 #main-panel {
     position: absolute;
@@ -114,7 +113,7 @@ body {
 }
 
 
-.h1, .h2, .p1, .p2 {
+.h1, .h2, .p-1, .p-2 {
     margin: 0;
     font-family: dosis light, sans-serif;
     font-weight: 900;
@@ -147,7 +146,7 @@ body {
     font-size: 26px;
 }
 
-/*------------------------------------------------------------------------------------------ IMAGE PANEL */
+/*------------------------------------------------------------------------------------------------------- IMAGE PANEL */
 
 #image-panel {
     position: fixed;
@@ -160,7 +159,7 @@ body {
     background-size: cover;
 }
 
-/*------------------------------------------------------------------------------------------ SWIPER */
+/*------------------------------------------------------------------------------------------------------------ SWIPER */
 
 .swiper-container {
     width: 100%;
