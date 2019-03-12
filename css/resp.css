@@ -9,10 +9,6 @@
         left: 6%;
     }
 
-    #main-panel #mp1 {
-        height: 130px;
-    }
-
     #left-panel {
         width: 6%;
     }
@@ -34,17 +30,13 @@
         padding-bottom: 1px;
     }
 
-    #main-panel #mp1 {
-        height: 130px;
-    }
-
     #left-panel {
         width: 10%;
     }
 
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 512px) {
 
     #menu-panel{
         position: absolute;
