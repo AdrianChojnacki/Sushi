@@ -68,18 +68,14 @@ body {
     margin: 40px auto 0;
 }
 
-#menu-panel ul {
+#menu-panel nav {
     margin-top: 36px;
     padding: 0;
     text-align: center;
     list-style-type: none;
 }
 
-#menu-panel li {
-    display: inline-block;
-}
-
-#menu-panel a { /*-------------------- Zastanawiałem się czy dać selektor '#menu-panel li a' czy bez 'li'. Oba zdają się działać identycznie, więc uznałem, że postawię na oszczędność miejsca. */
+#menu-panel a {
     display: inline-block; /*-------------------- Problem ze "skaczącymi" linkami przy wrapie. */
     padding: 4px 8px;
     color: white;
@@ -89,7 +85,7 @@ body {
     text-decoration: none;
 }
 
-#menu-panel a:hover { /*-------------------- Zastanawiałem się czy dać selektor '#menu-panel li a:hover' czy bez 'li'. Oba zdają się działać identycznie, więc uznałem, że postawię na oszczędność miejsca. */
+#menu-panel a:hover {
     color: #ff5253;
     border-bottom: 1px solid #ff5253;
 }
@@ -107,43 +103,37 @@ body {
     background: #333;;
 }
 
-.sub-panel-1 {
+.main-panel-header {
     width: 80%;
     margin: 0 auto 30px;
 }
 
 
-.h1, .h2, .p-1, .p-2 {
+.main-panel-header h1, .main-panel-header h2, .main-panel-text p {
     margin: 0;
     font-family: dosis light, sans-serif;
     font-weight: 900;
 }
 
-.h1 {
+.main-panel-header h1 {
     color: #fe4e50;
     font-size: 26px;
 }
 
-.h2 {
+.main-panel-header h2 {
     color: white;
     font-size: 30px;
 }
 
-.sub-panel-2 {
+.main-panel-text {
     width: 80%;
     margin: auto;
     padding-bottom: 30px;
 }
 
-.p-1 {
+.main-panel-text p {
     color: white;
     font-size: 16px;
-}
-
-.p-2 {
-    padding: 20px 0;
-    color: #fe4e50;
-    font-size: 26px;
 }
 
 /*------------------------------------------------------------------------------------------------------- IMAGE PANEL */
