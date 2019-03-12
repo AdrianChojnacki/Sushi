@@ -55,9 +55,7 @@ body {
     left: 2.5%;
     width: 27.5%;
     height: 192px;
-    background: #2f2f2f;
-    /* background: #333;-------------------- Powrót do designu Krzycha + bez tego "border-bottom" linijkę poniżej. */
-    border-bottom: 1px solid #4f4f4f;
+    background: #333;
     z-index: 1;
 }
 
@@ -126,12 +124,20 @@ body {
 }
 
 .main-panel-text {
+    display: flex;
     width: 80%;
     margin: auto;
     padding-bottom: 30px;
 }
 
+.lines {
+    flex: 0 0 11px;
+    border-left: 1px solid #484848;
+    border-right: 1px solid #484848;
+}
+
 .main-panel-text p {
+    padding-left: 20px;
     color: white;
     font-size: 16px;
 }
