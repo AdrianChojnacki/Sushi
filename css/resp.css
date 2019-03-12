@@ -1,37 +1,34 @@
 @media screen and (max-width: 1024px) {
 
-    #image-panel {
-        width: 50%;
+    #left-panel {
+        width: 6%;
     }
 
-    #main-panel, #menu-panel {
+    #menu-panel, #main-panel {
         width: 44%;
         left: 6%;
     }
 
-    #left-panel {
-        width: 6%;
+    #image-panel {
+        width: 50%;
     }
 
 }
 
 @media screen and (max-width: 512px) {
 
-    #image-panel {
-        display: none;
+    #left-panel {
+        width: 10%;
     }
 
-    #main-panel, #menu-panel {
+
+    #menu-panel, #main-panel {
         width: 90%;
         left: 10%;
     }
 
-    #menu-panel li a:hover {
-        padding-bottom: 1px;
-    }
-
-    #left-panel {
-        width: 10%;
+    #image-panel {
+        display: none;
     }
 
 }

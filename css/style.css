@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #333;
+    background: #333;
 }
 
 /*------------------------------------------------------------------------------------------ LEFT PANEL */
@@ -39,8 +43,8 @@ body {
 #left-panel .kreska {
     width: 87.5%;
     height: 1px;
-    background: #4f4f4f;
     margin: 0 auto;
+    background: #4f4f4f;
 }
 
 /*------------------------------------------------------------------------------------------ MENU PANEL */
@@ -59,17 +63,17 @@ body {
 
 #logo {
     display: block;
+    width: 40%;
+    height: auto;
     margin: 0 auto;
     margin-top: 40px;
-    height: auto;
-    width: 40%;
 }
 
 #menu-panel ul {
-    list-style-type: none;
     margin-top: 36px;
     padding: 0;
     text-align: center;
+    list-style-type: none;
 }
 
 #menu-panel li {
@@ -77,74 +81,70 @@ body {
 }
 
 #menu-panel li a {
-    font-family: dosis light, sans-serif;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    padding: 4px 8px;
-    text-decoration: none;
     display: inline-block; /* -------------------- Problem ze "skaczącymi" linkami przy wrapie. */
+    padding: 4px 8px;
+    color: white;
+    font-size: 18px;
+    font-family: dosis light, sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
 
 #menu-panel li a:hover {
-    border-bottom: 1px solid #ff5253;
     color: #ff5253;
+    border-bottom: 1px solid #ff5253;
 }
 
 /*------------------------------------------------------------------------------------------ MAIN PANEL */
 
 #main-panel {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 192px;
     left: 2.5%;
     width: 27.5%;
-    background: #333;;
     margin-top: 30px;
-    display: flex;
-    flex-direction: column;
+    background: #333;;
 }
 
-#main-panel .mp1 {
+.sub-panel-1 {
     width: 80%;
     margin: 0 auto 30px;
 }
 
-#main-panel .mp1 .h1 {
+
+.h1, .h2, .p1, .p2 {
+    margin: 0;
     font-family: dosis light, sans-serif;
-    font-size: 26px;
     font-weight: 900;
+}
+
+.h1 {
     color: #fe4e50;
-    margin: 0;
+    font-size: 26px;
 }
 
-#main-panel .mp1 .h2 {
-    font-family: dosis light, sans-serif;
-    font-size: 30px;
-    font-weight: 900;
+.h2 {
     color: white;
-    margin: 0;
+    font-size: 30px;
 }
 
-#main-panel .mp2 {
+.sub-panel-2 {
     width: 80%;
     margin: auto;
     padding-bottom: 30px;
 }
 
-#main-panel .mp2 .p1 {
-    font-family: dosis light, sans-serif;
-    font-size: 16px;
-    font-weight: 900;
+.p-1 {
     color: white;
-    margin: 0;
+    font-size: 16px;
 }
 
-#main-panel .mp2 .p2 {
-    font-family: dosis light, sans-serif;
-    font-size: 26px;
-    font-weight: 900;
+.p-2 {
+    padding: 20px 0;
     color: #fe4e50;
-    margin: 20px 0;
+    font-size: 26px;
 }
 
 /*------------------------------------------------------------------------------------------ IMAGE PANEL */
