@@ -12,13 +12,8 @@
 
 @media screen and (max-width: 1024px) {
 
-    #left-panel {
-        width: 6%;
-    }
-
     #menu-panel, #main-panel {
-        width: 44%;
-        left: 6%;
+        width: calc(50% - 40px);
     }
 
     #image-panel {
@@ -29,14 +24,8 @@
 
 @media screen and (max-width: 512px) {
 
-    #left-panel {
-        width: 10%;
-    }
-
-
     #menu-panel, #main-panel {
-        width: 90%;
-        left: 10%;
+        width: calc(100% - 40px);
     }
 
     #image-panel {
