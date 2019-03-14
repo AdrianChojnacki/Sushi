@@ -161,8 +161,6 @@ body {
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -178,6 +176,24 @@ body {
     align-items: center;
     background-size: cover;
     background-position: center center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.swiper-slide-1 {
+    background-image: url("../img/img1.jpg");
+}
+
+.swiper-slide-2 {
+    background-image: url("../img/img2.jpg");
+}
+
+.swiper-slide-3 {
+    background-image: url("../img/img3.jpg");
+}
+
+.swiper-slide-4 {
+    background-image: url("../img/img4.jpg");
 }
 
 .swiper-container .swiper-pagination-bullet-active {
