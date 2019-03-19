@@ -61,7 +61,7 @@ body {
 }
 
 .main-panel-header {
-    width: 80%;
+    width: 70%;
     margin: 0 auto 30px;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .main-panel-text {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding-bottom: 30px;
 }

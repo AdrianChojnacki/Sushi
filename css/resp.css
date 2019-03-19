@@ -1,11 +1,11 @@
-@media screen and (min-width: 1560px) {
+@media screen and (max-width: 1560px) {
 
     .main-panel-header {
-        width: 70%;
+        width: 80%;
     }
 
     .main-panel-text {
-        width: 70%;
+        width: 80%;
     }
 
 }
