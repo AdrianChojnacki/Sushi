@@ -63,8 +63,8 @@ body {
 .main-panel-header {
     width: 70%;
     margin: 0 auto 30px;
+    text-transform: uppercase;
 }
-
 
 .main-panel-header h1, .main-panel-header h2, .main-panel-text p {
     margin: 0;
